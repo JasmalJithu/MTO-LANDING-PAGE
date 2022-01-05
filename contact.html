@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
+    />
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--
+
+     -->
+    <title>Varal MTO</title>
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light varal-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="assets/img/logo.png"
+            class="varal-logo"
+            alt="logo"
+            srcset=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav varal-nav-center">
+            <a
+              class="nav-link varal-nav-link varal-active"
+              aria-current="page"
+              href="#"
+              >Home</a
+            >
+            <a class="nav-link varal-nav-link" href="#about">About</a>
+            <a class="nav-link varal-nav-link" href="#">Contact</a>
+            <div class="dropdown">
+              <a
+                class="dropdown-toggle nav-link varal-nav-link career-list"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Careers
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="404.html">UI/UX Designer</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="404.html">IT Software</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="404.html">HR Manager</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="404.html">Accounts</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="404.html">Law</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="navbar-nav align-items-center">
+              <a
+                class="nav-link active varal-login"
+                aria-current="page"
+                href="#"
+                >Login</a
+              >
+              <button class="btn sign-btn explore-btn">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Main-Banner section -->
+    <section class="contact-banner">
+      <div class="row h-100 m-0">
+        <div class="col-12 col-md-8 bg-alt d-flex align-items-center">
+          <div class="get-touch">
+            <h2 class="contact-title">Get in touch</h2>
+            <span class="contact-content">
+              Want to get in touch? We would love to hear from you.<br />
+              Here’s how you can reach us....
+            </span>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 p-0">
+          <img
+            src="assets/img/illustrations/contact-banner.png"
+            class="speak-img"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="contact-card">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="card">
+            <svg
+              width="64"
+              height="62"
+              viewBox="0 0 64 62"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M62.8333 46.0549V54.9299C62.8368 55.7538 62.6609 56.5693 62.3169 57.3242C61.9728 58.0791 61.4683 58.7567 60.8355 59.3137C60.2028 59.8707 59.4557 60.2948 58.6423 60.5587C57.8288 60.8227 56.9669 60.9207 56.1116 60.8465C46.6237 59.8574 37.5099 56.7467 29.5025 51.7645C22.0526 47.2224 15.7364 41.1623 11.0025 34.0145C5.79156 26.2968 2.54871 17.5099 1.53662 8.36571C1.45957 7.54764 1.5609 6.72313 1.83417 5.94469C2.10743 5.16624 2.54663 4.45092 3.12382 3.84426C3.701 3.2376 4.40352 2.7529 5.18665 2.42101C5.96977 2.08912 6.81634 1.91732 7.67246 1.91655H16.9225C18.4188 1.90242 19.8695 2.41082 21.0041 3.347C22.1386 4.28317 22.8797 5.58324 23.0891 7.00488C23.4795 9.84508 24.2036 12.6338 25.2475 15.3178C25.6623 16.3767 25.7521 17.5274 25.5062 18.6337C25.2603 19.74 24.689 20.7555 23.86 21.5599L19.9441 25.317C24.3334 32.7233 30.7249 38.8556 38.4441 43.067L42.36 39.3099C43.1983 38.5145 44.2567 37.9664 45.4097 37.7304C46.5628 37.4945 47.7622 37.5806 48.8658 37.9786C51.6632 38.9802 54.5698 39.6749 57.53 40.0495C59.0277 40.2522 60.3956 40.976 61.3734 42.0833C62.3513 43.1906 62.8708 44.604 62.8333 46.0549Z"
+                fill="#334F55"
+                stroke="#334F55"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#">+ 93445543677745</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <svg
+              width="73"
+              height="68"
+              viewBox="0 0 73 68"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_2343_162)">
+                <path
+                  d="M8.71652 28.3334C8.70423 32.7329 9.80552 37.073 11.9307 41C14.4505 45.7058 18.3242 49.6639 23.118 52.4309C27.9118 55.198 33.4362 56.6646 39.0726 56.6667C43.7863 56.6781 48.4362 55.6502 52.6436 53.6667L73 60L66.2145 41C68.3397 37.073 69.441 32.7329 69.4287 28.3334C69.4265 23.0726 67.8551 17.9162 64.8906 13.4419C61.926 8.96758 57.6853 5.35198 52.6436 3.00009C48.4362 1.01653 43.7863 -0.0113759 39.0726 9.49602e-05H37.287C29.8431 0.3834 22.8123 3.31596 17.5407 8.23628C12.2691 13.1566 9.12719 19.7189 8.71652 26.6667V28.3334Z"
+                  fill="#334F55"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_2343_162">
+                  <rect
+                    width="73"
+                    height="68"
+                    fill="white"
+                    transform="matrix(-1 0 0 1 73 0)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <svg
+              width="65"
+              height="67"
+              viewBox="0 0 65 67"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.8333 11.1667H54.1666C57.1458 11.1667 59.5833 13.6792 59.5833 16.7501V50.2501C59.5833 53.3209 57.1458 55.8334 54.1666 55.8334H10.8333C7.85413 55.8334 5.41663 53.3209 5.41663 50.2501V16.7501C5.41663 13.6792 7.85413 11.1667 10.8333 11.1667Z"
+                fill="#334F55"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M59.5833 16.75L32.5 36.2917L5.41663 16.75"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <a href="contact2.html">Need more assitance ? click here</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="text-center text-lg-start bg-white text-muted">
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3 justify-content-between">
+            <div class="col-md-2 col-lg-2 col-xl-2 mb-4 mt-5">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Policies</h6>
+              <p class="mb-0">
+                <a href="#!" class="text-reset footer-links">Privacy Policy</a>
+              </p>
+              <p class="mb-0">
+                <a href="#!" class="text-reset footer-links"
+                  >Terms & Conditions</a
+                >
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mb-4 mt-5">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">About</h6>
+              <p class="mb-0">
+                <a href="#!" class="text-reset footer-links">About Us</a>
+              </p>
+              <p class="mb-0">
+                <a href="#!" class="text-reset footer-links">Contact Us</a>
+              </p>
+              <p class="mb-0">
+                <a href="#!" class="text-reset footer-links">Micro-Tasks</a>
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mb-4 mt-5">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Address</h6>
+              <p class="footer-links" id="address">
+                608 One Lake Plaza, Cluster T, Al Sarayat Street, Jumeirah Lake
+                Towers Dubai United Arab Emirates
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4 mt-5">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Subscribe Now</h6>
+              <p>Sunbscribe to our Newsletters</p>
+              <div class="input-wrapper d-flex">
+                <input
+                  type="email"
+                  value=""
+                  placeholder="Enter email address"
+                  class="footer-input"
+                  id="newsletter"
+                />
+                <label for="newsletter" class="footer-submit"
+                  ><a href="#!"
+                    ><img
+                      src="./assets/img/illustrations/submit.png"
+                      class="submit-icon"
+                      alt="Send email"
+                      srcset="" /></a
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Copyright -->
+      <div class="text-center p-4">Habot.io 2021© All Rights Reserved</div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <!-- script files -->
+    <script src="assets/js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
