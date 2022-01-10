@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800&display=swap');
 body {
 	font-family: 'Roboto', sans-serif;
 	height: 1500px;
@@ -336,4 +337,62 @@ color: #334F55
 	font-size: 20px;
 	font-weight: 300;
 
+}
+.careers__title{
+	color: #525DED;
+	font-family: Lexend Deca;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+}
+.careers__row{
+	
+}
+.careers{
+	box-shadow: 2px 2px 2px 2px rgba(146, 146, 146, 0.25);
+border-radius: 10px;
+height: 100%;
+min-height: 850px;
+}
+.careers__img{
+margin-top: 100px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.careers__dropdown{
+	width: 100%;
+	max-width: 300px;
+	border: 1px solid #726F6F;
+box-sizing: border-box;
+border-radius: 10px;
+}
+.careers__tag{
+	text-align: center !important;
+}
+.dropdown-toggle::after{
+	margin-left: 0em;
+
+}
+.careers__div{
+	background-color: #F8F7F7;
+	padding: 30px;
+	border-radius: 10px;
+	margin-top: 57px;
+	width: 100%;
+	max-width: 500px;
+}
+.dropdown-menu{
+	width: 100%;
+	max-width: 287px;
+	margin-top: 8px !important;
+}
+.careers__empty{
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+.careers__nojob{
+	font-size: 24px;
 }
